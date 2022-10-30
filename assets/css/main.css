@@ -531,6 +531,88 @@ button {
   text-align: center;
   color: var(--bg1);
 }
+._testimonial_card_wrapper {
+  margin-top: 76px;
+  position: relative;
+}
+._testimonial_r8_para1 {
+  max-width: 95%;
+  font-family: "Sora";
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 40px;
+  color: var(--bg1);
+}
+._testimonial_r8_quote_icon_wrapper {
+  position: relative;
+}
+._testimonial_r8_quote_icon {
+  width: 70px;
+  height: 40px;
+  position: absolute;
+  right: 30%;
+}
+._testimonial_r8_para2 {
+  margin-top: 27px;
+  font-family: "Sora";
+  font-weight: 300;
+  font-size: 17px;
+  color: var(--color9);
+}
+._testimonial_stars_ul {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+}
+._testimonial_star_icon {
+  width: 23px;
+  height: 23px;
+}
+._testimonial_r8_para3 {
+  margin-top: 8px;
+  font-family: "Sora";
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--bg1);
+}
+.splide__pagination {
+  display: none;
+}
+.splide__arrows {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  gap: 8px;
+}
+._testimonial_prev_btn {
+  width: 59px;
+  height: 57px;
+  background-color: var(--bg4);
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._testimonial_prev_arrow_icon {
+  width: 6px;
+  height: 10px;
+}
+._testimonial_next_btn {
+  width: 59px;
+  height: 57px;
+  background-color: var(--color4);
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._testimonial_next_arrow_icon {
+  width: 6px;
+  height: 10px;
+}
 /* testimonial section end */
 /* responsive css */
 /* Desktop/Laptop */
@@ -569,7 +651,9 @@ button {
   --color6: #545454;
   --color7: #7f7d79;
   --color8: #b5b3af;
+  --color9: #7d7d7d;
   --bg1: #1e1e1e;
   --bg2: #e2f471;
   --bg3: #fdf9f1;
+  --bg4: #dcd4c5;
 }
