@@ -891,6 +891,30 @@ button {
   line-height: 26px;
   color: var(--color1);
 }
+._footer_menu_txt {
+  font-family: "Sora";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color2);
+}
+._footer_items_ul {
+  margin-top: 22px;
+}
+.nav-link {
+  padding: 0;
+}
+._footer_link {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  color: var(--color1);
+}
+._footer_link:hover {
+  color: var(--color2);
+}
 /* footer section end */
 /* responsive css */
 /* Desktop/Laptop */
