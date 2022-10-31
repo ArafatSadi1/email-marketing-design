@@ -782,7 +782,116 @@ button {
   line-height: 32px;
   color: var(--bg1);
 }
+._library_btn_wrapper {
+  margin-top: 37px;
+  display: flex;
+  justify-content: center;
+}
+._library_btn {
+  width: 194px;
+  height: 53px;
+  background: var(--color4);
+  border: none;
+  border-radius: 10px;
+  font-family: "Sora";
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+}
+._library_btn:hover {
+  background: var(--bg5);
+}
+._library_btn:hover img {
+  transform: translateX(2px) scale(1.1);
+}
+._library_btn_icon {
+  width: 18px;
+  height: 14px;
+}
 /* library section end */
+/* footer section start */
+._footer_wrapper {
+  margin-top: 140px;
+  padding: 70px 0 82px;
+  background-color: var(--bg1);
+}
+._footer_cont_text {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  color: var(--color2);
+  text-align: center;
+}
+._footer_cont_para {
+  max-width: 28%;
+  margin: 14px auto 35px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--color8);
+}
+._footer_cont_btn_wrapper {
+  display: flex;
+  justify-content: center;
+}
+._footer_btn {
+  width: 223px;
+  height: 58px;
+  background: var(--color4);
+  border: none;
+  border-radius: 10px;
+  font-family: "Sora";
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+._footer_btn:hover {
+  background: var(--bg5);
+}
+._footer_btn:hover img {
+  transform: translateX(2px) scale(1.1);
+}
+._footer_btn_icon {
+  width: 15px;
+  height: 12px;
+}
+._footer_links_wrapper {
+  margin-top: 76px;
+}
+._footer_logo_img {
+  width: 178px;
+  height: 32px;
+}
+._footer_brand_para1 {
+  margin-top: 30px;
+  font-family: "Sora";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color1);
+}
+._footer_brand_para2 {
+  max-width: 95%;
+  margin-top: 15px;
+  font-family: "Sora";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color1);
+}
+/* footer section end */
 /* responsive css */
 /* Desktop/Laptop */
 @media only screen and (max-width: 1600px) {
