@@ -1673,6 +1673,10 @@ button {
   ._newsletter_img_sp {
     left: 35px;
   }
+  ._newsletter_img {
+    width: 540px;
+    height: 565px;
+  }
   ._newsletter_cont_txt {
     max-width: 100%;
   }
@@ -1684,6 +1688,10 @@ button {
   }
   ._features_img_sp {
     right: 35px;
+  }
+  ._features_img {
+    width: 540px;
+    height: 565px;
   }
   ._features_r8_txt {
     margin-top: 660px;
@@ -1704,6 +1712,9 @@ button {
   ._business_tools_wrapper {
     margin-top: 80px;
     padding: 60px 0 100px;
+  }
+  ._business_tools_r8_img_sp2 {
+    display: none;
   }
   ._testimonial_wrapper {
     margin-top: 80px;
@@ -1801,7 +1812,7 @@ button {
   }
   ._footer_wrapper {
     margin-top: 80px;
-    padding: 80px 0 35px;
+    padding: 80px 0 55px;
   }
   ._footer_nav_wrapper {
     justify-content: end;
@@ -1829,6 +1840,95 @@ button {
 }
 /* Mobile */
 @media only screen and (max-width: 575px) {
+  ._header_logo_wrap {
+    gap: 12px;
+  }
+  ._logo_img {
+    width: 20px;
+    height: 18px;
+  }
+  ._brand_txt {
+    font-size: 17px;
+  }
+  ._header_cont_wrapper {
+    padding: 55px 0 65px 0;
+  }
+  ._header_cont_txt {
+    max-width: 80%;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  ._header_btn_wrapper {
+    padding-top: 35px;
+    gap: 20px;
+  }
+  ._header_left_btn {
+    width: 123px;
+    height: 41px;
+  }
+  ._header_right_btn_icon_sp {
+    width: 35px;
+    height: 35px;
+  }
+  ._header_right_btn_icon {
+    width: 10px;
+    height: 10px;
+  }
+  ._header_img {
+    margin-top: -28%;
+  }
+  ._countdown_wrapper {
+    margin-top: 60px;
+    padding: 0 0 60px 0;
+  }
+  ._countdown_card {
+    margin-top: 65px;
+  }
+  ._countdown_txt {
+    font-size: 45px;
+  }
+  ._countdown_para {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  ._newsletter_wrapper {
+    margin-top: 60px;
+  }
+  ._newsletter_cont_txt {
+    max-width: 80%;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  ._newsletter_cont_para {
+    margin: 12px auto 60px;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 65%;
+  }
+  ._newsletter_img_sp {
+    overflow: hidden;
+    left: 25px;
+  }
+  ._newsletter_img {
+    width: 530px;
+    height: 540px;
+  }
+  ._newsletter_left_txt_wrapper {
+    margin-top: 590px;
+  }
+  ._newsletter_left_txt {
+    max-width: 65%;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  ._features_img_sp {
+    overflow: hidden;
+    left: 25px;
+  }
+  ._features_img {
+    width: 530px;
+    height: 540px;
+  }
 }
 @media only screen and (max-width: 420px) {
 }
