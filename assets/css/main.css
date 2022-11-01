@@ -824,6 +824,9 @@ button {
   padding: 70px 0 82px;
   background-color: var(--bg1);
 }
+._footer_logo_sm {
+  display: none;
+}
 ._footer_cont_text {
   font-family: "Sora";
   font-style: normal;
@@ -1393,7 +1396,7 @@ button {
     height: 15px;
   }
   ._countdown_wrapper {
-    margin-top: 125px;
+    margin-top: 100px;
     padding: 0 0 90px 0;
   }
   ._countdown_card {
@@ -1418,11 +1421,15 @@ button {
   }
   ._newsletter_left_txt_wrapper {
     order: 2;
-    margin-top: 55px;
+    margin-right: 0%;
+    margin-top: 750px;
   }
   ._newsletter_img_wrapper {
     order: 1;
-    margin-right: -20%;
+  }
+  ._newsletter_img_sp {
+    position: absolute;
+    right: 0%;
   }
   ._newsletter_left_txt {
     max-width: 85%;
@@ -1465,10 +1472,14 @@ button {
     font-size: 18px;
   }
   ._features_img_wrapper {
-    margin-left: -20%;
+    margin-left: 0%;
+  }
+  ._features_img_sp {
+    position: absolute;
+    left: 0;
   }
   ._features_r8_txt {
-    margin-top: 66px;
+    margin-top: 750px;
     max-width: 85%;
   }
   ._features_r8_para1 {
@@ -1642,6 +1653,179 @@ button {
 }
 /* Ipad/Mobile L */
 @media only screen and (max-width: 767px) {
+  ._header_nav {
+    padding-top: 20px;
+  }
+  ._header_cont_wrapper {
+    padding: 60px 0 65px 0;
+  }
+  ._header_btn_wrapper {
+    padding-top: 40px;
+    gap: 25px;
+  }
+  ._countdown_wrapper {
+    margin-top: 80px;
+    padding: 0 0 80px 0;
+  }
+  ._newsletter_wrapper {
+    margin-top: 80px;
+  }
+  ._newsletter_img_sp {
+    left: 35px;
+  }
+  ._newsletter_cont_txt {
+    max-width: 100%;
+  }
+  ._newsletter_cont_para {
+    margin: 15px auto 75px;
+  }
+  ._newsletter_left_txt_wrapper {
+    margin-top: 660px;
+  }
+  ._features_img_sp {
+    right: 35px;
+  }
+  ._features_r8_txt {
+    margin-top: 660px;
+  }
+  ._service_wrapper {
+    margin-top: 80px;
+  }
+  ._service_cards_wrapper {
+    margin-top: 40px;
+  }
+  ._service_card {
+    padding: 45px 65px 65px 40px;
+  }
+  ._service_card_middle {
+    margin: 25px 0;
+    padding: 45px 65px 65px 40px;
+  }
+  ._business_tools_wrapper {
+    margin-top: 80px;
+    padding: 60px 0 100px;
+  }
+  ._testimonial_wrapper {
+    margin-top: 80px;
+  }
+  ._testimonial_cont_txt {
+    max-width: 80%;
+    text-align: start;
+    margin: 0;
+  }
+  ._testimonial_card_wrapper {
+    margin-top: 20px;
+  }
+  ._testimonial_r8_para1 {
+    font-size: 18px;
+    line-height: 36px;
+  }
+  ._testimonial_r8_quote_icon_wrapper {
+    display: none;
+  }
+  ._testimonial_r8_para2 {
+    margin-top: 25px;
+    font-size: 20px;
+  }
+  ._testimonial_stars_ul {
+    margin-top: 12px;
+  }
+  ._testimonial_r8_para3 {
+    margin-top: 12px;
+    font-size: 18px;
+  }
+  ._library_wrapper {
+    margin-top: 160px;
+  }
+  ._library_cont_para {
+    max-width: 65%;
+  }
+  ._library_left_card {
+    max-width: 70%;
+    margin: 86px auto 0;
+  }
+  ._library_left_card_img_wrapper {
+    height: 247px;
+    padding: 50px 40px 0px 40px;
+  }
+  ._library_left_card_img {
+    width: 242px;
+    height: 145px;
+  }
+  ._library_left_card_btn_wrap {
+    left: 55px;
+    bottom: 16px;
+  }
+  ._library_left_card_btn {
+    width: 171px;
+    height: 35px;
+    font-size: 15px;
+  }
+  ._library_card_para {
+    font-size: 18px;
+  }
+  ._library_card_txt {
+    margin-top: 15px;
+    max-width: 75%;
+    font-size: 23px;
+    line-height: 32px;
+  }
+  ._library_middle_card_img_wrap {
+    height: 247px;
+  }
+  ._library_middle_card {
+    max-width: 70%;
+    margin: 50px auto 0;
+  }
+  ._library_middle_card_img {
+    width: 220px;
+    height: 220px;
+  }
+  ._library_r8_card_img {
+    height: 247px;
+  }
+  ._library_r8_card {
+    max-width: 70%;
+    margin: 50px auto 0;
+    padding-bottom: 25px;
+  }
+  ._library_r8_card_txt_wrapper {
+    margin-left: 45px;
+  }
+  ._library_r8_card_txt {
+    font-size: 23px;
+    line-height: 32px;
+  }
+  ._library_r8_card_para {
+    font-size: 18px;
+  }
+  ._footer_wrapper {
+    margin-top: 80px;
+    padding: 80px 0 35px;
+  }
+  ._footer_nav_wrapper {
+    justify-content: end;
+  }
+  ._footer_logo_sm {
+    display: block;
+  }
+  ._footer_brand_logo_sp_sm {
+    margin-bottom: 30px;
+  }
+  ._footer_logo_img_sm {
+    width: 250px;
+    height: 65px;
+    margin: auto;
+  }
+  ._footer_cont_text {
+    margin-top: 30px;
+  }
+  ._footer_cont_para {
+    max-width: 70%;
+  }
+  ._footer_brand_wrapper {
+    display: none;
+  }
 }
 /* Mobile */
 @media only screen and (max-width: 575px) {
